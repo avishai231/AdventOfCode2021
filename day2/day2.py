@@ -25,9 +25,6 @@ def update_pos2(command_list):
     return abs(depth)*horiz
 
 
-
-
-
 if __name__ == '__main__':
     #print(read_file('test.txt'))
     final_pos = update_pos(read_file('test.txt'))
