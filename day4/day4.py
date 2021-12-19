@@ -49,7 +49,8 @@ def solve2(numbers, boards):
                 # if a board wins it checks it in checked
                 # if checked has last board left it calculates the last board with an offset due to the way
                 #   the iterations go over numbers. It wasn't worth fixing as it gave the right solution.
-                # this is highly inefficient as this iterates over boards that already won.
+                # this is highly inefficient as this iterates over boards that already won. This can be solved
+                #   if on each board iterationis we check if the board has won. 
                 if board[:,j].tolist().count('x') == 5:
                     if checked.count(0) == 1:
                         winning_board = boards[checked.index(0)]
