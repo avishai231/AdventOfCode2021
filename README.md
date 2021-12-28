@@ -14,3 +14,5 @@ My current solutions are listed here:
 4. Day 4a 4b
 5. Day 5a 5b
 6. Day 6a 6b
+7. Day 7a 7b
+8. Day 8a 8b
