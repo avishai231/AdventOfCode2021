@@ -16,3 +16,4 @@ My current solutions are listed here:
 6. Day 6a 6b
 7. Day 7a 7b
 8. Day 8a 8b
+9. Day 9a 9b
