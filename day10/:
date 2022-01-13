@@ -1,0 +1,23 @@
+import numpy as np
+
+def parse_input(filename):
+    return
+
+def solve1(line):
+    endings = [')',']','}','>']
+    starts  = ['(','[','{','<']
+    temp = line
+    for i,j in enumerate(line):
+        if j not in starts:
+            print('found error ' + j)
+        elif j == '(':
+            line.replace(')','',1)
+        elif j == '[':
+            temp.replace(']','',1)
+        elif j == '{':
+            temp.replace('}','',1)
+        elif j == '<':
+            temp.replace('>','',1)
+    return
+
+solve1('[]>')
